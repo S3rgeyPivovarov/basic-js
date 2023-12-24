@@ -19,8 +19,8 @@ const HALF_LIFE_PERIOD = 5730;
  */
 function dateSample(sampleActivity) {
   const MODERN_ACTIVITY = 15;
-  const HALF_LIFE_PERIOD = 5730;
-  const k = 0.693 / HALF_LIFE_PERIOD;
+  const HALFLIFE_PERIOD = 5730;
+  const k = 0.693 / HALFLIFE_PERIOD;
 
   if (
     typeof sampleActivity !== "string" ||
